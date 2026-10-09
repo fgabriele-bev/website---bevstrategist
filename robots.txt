@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bevstrategist.co.uk/sitemap.xml

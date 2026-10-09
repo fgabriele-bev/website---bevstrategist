@@ -236,9 +236,8 @@ HOW = {
             ("Scelta dei partner", "Ricerco e propongo una lista ragionata", "Scegli chi incontrare"),
             ("Primo contatto con gli operatori", "Ti presento dichiarando il mio ruolo", "Autorizzi ogni contatto"),
             ("Prezzi, esclusiva, ordini, contratti", "Ti consiglio", "Negozi e firmi"),
-            ("Licenze, accise, etichettatura, importazione", "Segnalo i temi e ti indirizzo agli specialisti", "Ne rispondi, anche tramite i tuoi partner"),
+            ("Licenze, accise, etichettatura, importazione", "Segnalo i temi e ti indirizzo agli specialisti", "A te la decisione"),
         ],
-        "roles_note": "Primo ordine, listing, nomina di un distributore e volumi di vendita dipendono anche dalle tue decisioni e da quelle dei tuoi interlocutori: restano fuori da ogni garanzia.",
         "on_request": ("Su richiesta", "Progetto a ore", [
             "Anche per poche ore, per un mese o per un singolo progetto: decidi tu quando e quante ore vuoi che dedichi al tuo progetto nel mercato britannico.",
             "Ricevi un preventivo costruito sulle tue richieste.",
@@ -290,9 +289,8 @@ HOW = {
             ("Choice of partners", "I research and propose a reasoned list", "You choose whom to meet"),
             ("First contact with the trade", "I introduce you, stating my role", "You authorise every contact"),
             ("Prices, exclusivity, orders, contracts", "I advise you", "You negotiate and sign"),
-            ("Licences, duty, labelling, importation", "I flag the issues and refer you to specialists", "You are responsible, including through your partners"),
+            ("Licences, duty, labelling, importation", "I flag the issues and refer you to specialists", "The decision is yours"),
         ],
-        "roles_note": "A first order, a listing, a distributor appointment and sales volumes also depend on your decisions and on those of the other party: they sit outside any guarantee.",
         "on_request": ("On request", "Hourly project", [
             "Even for a few hours, for one month or for a single project: you decide when and how many hours you want me to give to your project in the UK market.",
             "You receive a quote built on your requests.",
@@ -380,7 +378,6 @@ def how(t, h):
 {rows}
         </tbody>
       </table>
-      <p class="roles-note">{h['roles_note']}</p>
     </div>
   </section>
 
